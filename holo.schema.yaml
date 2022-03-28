@@ -1,0 +1,30 @@
+schema:
+  schema_id: holo
+  name: 定製山人全息
+  version: "0.1"
+  author:
+    - Elliot <hack00mind@gmail.com>
+  description: |
+    參照山人全息輸入方案定製的個人形碼輸入方案。
+
+engine:
+  processors:
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - table_translator
+
+translator:
+  dictionary: holo
+
+punctuator:
+  import_preset: default
