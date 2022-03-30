@@ -18,7 +18,7 @@ encoder:
     - length_in_range: [4, 99]
       formula: "AaAbAcBaBbBcCaCbCcDaDbDcDdZaZb" # 2 + 2 + 2 + 末2
 import_tables:
-  - holo.brevity
+  - holo.abbreviation
   - holo.words
 
 ---
