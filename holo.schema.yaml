@@ -24,6 +24,8 @@ engine:
     - echo_translator
     - punct_translator
     - table_translator
+  filters:
+    - uniquifier
 
 translator:
   dictionary: holo
