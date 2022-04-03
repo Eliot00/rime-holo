@@ -26,6 +26,11 @@ engine:
   filters:
     - uniquifier
 
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  auto_select: true
+
 translator:
   dictionary: holo
 
