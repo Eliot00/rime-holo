@@ -10,6 +10,7 @@ schema:
 engine:
   processors:
     - ascii_composer
+    - recognizer
     - key_binder
     - speller
     - punctuator
@@ -17,14 +18,19 @@ engine:
     - navigator
     - express_editor
   segmentors:
+    - ascii_segmentor
+    - matcher
     - abc_segmentor
+    - affix_segmentor@reverse_lookup
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
     - table_translator
+    - script_translator@reverse_lookup
   filters:
     - uniquifier
+    - reverse_lookup_filter@pinyin_reverse_lookup
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -34,8 +40,26 @@ speller:
 translator:
   dictionary: holo
 
+reverse_lookup:
+  tag: reverse_lookup
+  dictionary: luna_pinyin
+  enable_completion: true
+  prefix: "`"
+  suffix: ";"
+  tips: 【拼音反查】
+  closing_tips: 【反查关闭】
+
+pinyin_reverse_lookup:
+  tags: [ reverse_lookup ]
+  dictionary: holo
+
 punctuator:
   import_preset: default
 
 key_binder:
   import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*;?$"
