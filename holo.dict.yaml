@@ -1,6 +1,6 @@
 ---
 name: holo
-version: "0.1"
+version: "0.2"
 use_preset_vocabulary: false
 sort: original
 columns:

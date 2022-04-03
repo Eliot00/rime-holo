@@ -1,11 +1,11 @@
 schema:
   schema_id: holo
-  name: 定製山人全息
-  version: "0.1"
+  name: 山人全息
+  version: "0.2"
   author:
     - Elliot <hack00mind@gmail.com>
   description: |
-    參照山人全息輸入方案定製的個人形碼輸入方案。
+    參照山人全息碼方案定製的形碼輸入方案。
 
 engine:
   processors:
