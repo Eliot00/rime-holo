@@ -1,6 +1,3 @@
-# Rime dict
-# encoding: utf-8
-
 ---
 name: holo
 version: "0.2"
@@ -22,6 +19,6 @@ encoder:
       formula: "AaAbAcBaBbBcCaCbCcDaDbDcDdZaZb" # 2 + 2 + 2 + 末2
 import_tables:
   - holo.abbreviation
-  - holo.char
+  - holo.words
 
 ---
