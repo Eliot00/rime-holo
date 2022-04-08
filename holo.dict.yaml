@@ -19,6 +19,6 @@ encoder:
       formula: "AaAbAcBaBbBcCaCbCcDaDbDcDdZaZb" # 2 + 2 + 2 + 末2
 import_tables:
   - holo.abbreviation
-  - holo.words
+  - holo.char
 
 ---

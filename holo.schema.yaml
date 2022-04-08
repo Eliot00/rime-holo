@@ -35,9 +35,16 @@ engine:
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
+  algebra:
+    - xform/\.//
+    - derive/^([a-zA-Z]+)_.+$/$1/
+    - xlit/QWERTYOPASDFGHJKLZXCVBNM/qwertyopasdfghjklzxcvbnm/
 
 translator:
   dictionary: holo
+  prism: holo
+  comment_format:
+    - xform/^.+_(.+)$/〔$1〕/
 
 reverse_lookup:
   tag: reverse_lookup
