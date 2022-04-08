@@ -43,6 +43,8 @@ speller:
 translator:
   dictionary: holo
   prism: holo
+  enable_completion: true
+  enable_user_dict: false
   comment_format:
     - xform/^.+_(.+)$/〔$1〕/
 
