@@ -11,6 +11,6 @@ columns:
   - code
 import_tables:
   - holo.abbreviation
-  - holo.char
+  - holo.full
 
 ---
