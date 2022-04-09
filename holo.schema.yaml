@@ -44,7 +44,8 @@ translator:
   dictionary: holo
   prism: holo
   enable_completion: true
-  enable_user_dict: false
+  enable_encoder: true
+  enable_user_dict: true
   comment_format:
     - xform/^.+_(.+)$/〔$1〕/
 
