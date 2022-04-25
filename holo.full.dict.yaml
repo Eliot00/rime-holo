@@ -3,9 +3,13 @@
 
 ---
 name: holo.full
-version: "0.2"
+version: "0.3"
 use_preset_vocabulary: false
-sort: original
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
 ...
 
 過	EgOL_冎口辶
