@@ -19,10 +19,10 @@ encoder:
     - "[^a-z]"
   rules:
     - length_equal: 2
-      formula: "AaAbAcBaBbBc" # 2 + 2
+      formula: "AaAbBaBb" # 2 + 2
     - length_equal: 3
-      formula: "AaAbAcBaBbBcCaCbCc" # 2 + 2 + 2
+      formula: "AaAbBaBbCaCb" # 2 + 2 + 2
     - length_in_range: [4, 99]
-      formula: "AaAbAcBaBbBcCaCbCcDaDbDcDdZaZb" # 2 + 2 + 2 + 末2
+      formula: "AaAbBaBbCaCbDaDbZaZb" # 2 + 2 + 2 + 末2
 
 ---
