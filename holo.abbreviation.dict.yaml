@@ -225,7 +225,7 @@ columns:
 刁	zhv	99999
 
 # 二簡詞
-內容	aa	99999
+内容	aa	99999
 网络	ay	99999
 時候	br	99999
 时候	br	99999
@@ -4022,7 +4022,7 @@ columns:
 彯	aqyx	0
 𩰌	aqzyd	0
 䦍	aqzym	0
-內	ar	0
+内	ar	999
 牄	ara	0
 𫴊	aracwu	0
 寏	aran	0
@@ -4135,7 +4135,6 @@ columns:
 𥥸	armuv	0
 閃	arn	0
 	arn	0
-内	arn	999
 𠔿	arn	0
 𡦼	arn	0
 內	arn	0
@@ -4221,7 +4220,6 @@ columns:
 𥥠	artziv	0
 閻	aru	0
 𠕳	aru	0
-內	aru	0
 囮	arub	0
 𠕿	arub	0
 囵	arubk	99
