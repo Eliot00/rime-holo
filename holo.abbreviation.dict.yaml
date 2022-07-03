@@ -3,7 +3,7 @@
 
 ---
 name: holo.abbreviation
-version: "0.3"
+version: "0.3.1"
 use_preset_vocabulary: false
 sort: by_weight
 columns:
@@ -75909,7 +75909,6 @@ columns:
 𢁺	thzyjc	0
 𠂰	thzyjc	0
 士	ti	999
-⼠	ti	0
 磅	tia	999
 𢈺	tiaa	0
 墑	tiac	0

@@ -3,7 +3,7 @@
 
 ---
 name: holo.full
-version: "0.3"
+version: "0.3.1"
 use_preset_vocabulary: false
 sort: by_weight
 columns:
@@ -58529,7 +58529,6 @@ columns:
 𢁺	TcHiZyiYj_一乙巾	0
 𠂰	TcHiZyiYj_一乙巾	0
 士	Ti_士	999
-⼠	Ti_士	0
 磅	ToIvAIf_石冖方	999
 𢈺	TaIa_广㐭	0
 墑	TuIvACiO_土冂十口	0
