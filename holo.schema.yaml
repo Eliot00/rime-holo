@@ -1,7 +1,7 @@
 schema:
   schema_id: holo
   name: 镂月全息
-  version: "0.3.1"
+  version: "0.3.2"
   author:
     - Elliot <hack00mind@gmail.com>
   description: |

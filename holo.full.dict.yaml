@@ -3,7 +3,7 @@
 
 ---
 name: holo.full
-version: "0.3.1"
+version: "0.3.2"
 use_preset_vocabulary: false
 sort: by_weight
 columns:
