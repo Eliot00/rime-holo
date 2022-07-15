@@ -38,7 +38,7 @@ speller:
   algebra:
     - xform/\.//
     - derive/^([a-zA-Z]+)_.+$/$1/
-    - xlit/QWERTYOPASDFGHJKLZXCVBNM/qwertyopasdfghjklzxcvbnm/
+    - xlit/ZYXWVUTSRQPONMLKJIHGFEDCBA/zyxwvutsrqponmlkjihgfedcba/
 
 translator:
   dictionary: holo
