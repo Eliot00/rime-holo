@@ -56,7 +56,8 @@ columns:
 是	bl	99999
 昆	bu	99999
 暖	bx	99999
-帶	ca	99999
+帶	CA	99999
+带	CA	99999
 草	cb	99999
 真	ce	99999
 博	ch	99999
@@ -7829,9 +7830,6 @@ columns:
 𥟙	bzyuho	0
 𪐘	bzyw	0
 𣌸	bzzio	0
-帶	ca	0
-	ca	0
-𫇦	ca	0
 夢	caa	0
 	caa	0
 	caa	0
