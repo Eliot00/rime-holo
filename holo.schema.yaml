@@ -7,6 +7,20 @@ schema:
   description: |
     參照山人全息碼方案定製的形碼輸入方案。
 
+switches:
+  - options: [standard, big5, gbk, utf8]
+    reset: 0
+    states:
+      - 规范
+      - BIG5
+      - GBK
+      - UTF8
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+
 engine:
   processors:
     - ascii_composer
@@ -29,6 +43,7 @@ engine:
     - table_translator
     - script_translator@reverse_lookup
   filters:
+    - lua_filter@holo_charset_filter
     - uniquifier
     - reverse_lookup_filter@pinyin_reverse_lookup
 
