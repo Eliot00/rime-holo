@@ -4,6 +4,8 @@
 
 ## 安裝
 
+> 2022-07-25更新：增加lua用於字符过滤，需要手動複製`lua/holo`与`rime.lua`到rime配置文件夾
+
 * 東風破：`bash rime-install Eliot00/rime-holo`
 * 手動：複製`holo.schema.yaml`和所有`dict.yaml`文件到Rime配置文件夾
 
