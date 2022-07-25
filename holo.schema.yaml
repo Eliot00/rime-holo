@@ -35,6 +35,7 @@ engine:
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
+  auto_select: true
   algebra:
     - xform/\.//
     - derive/^([a-zA-Z]+)_.+$/$1/
